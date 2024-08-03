@@ -1,0 +1,66 @@
+// Options
+$enable-dark-mode: false;
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-transitions: true;
+$enable-reduced-motion: true;
+$enable-grid-classes: true;
+$enable-container-classes: true;
+$enable-caret: true;
+$enable-button-pointers: true;
+$enable-rfs: true;
+$enable-validation-icons: true;
+$enable-negative-margins: true;
+$enable-deprecation-messages: true;
+$enable-important-utilities: true;
+$enable-smooth-scroll: true;
+
+$spacer: 1rem;
+
+// Grayscale vars
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+// Color vars
+$blue: rgba(222, 162, 142, 1);
+$blue-gradient: rgba(40, 40, 40, 1);
+$coral: rgba(222, 162, 142, 1);
+$navy: rgba(24, 42, 64, 1);
+$night: #061522;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+$light: rgba(249, 249, 249, 1);
+$taupe: #D3D0D0;
+
+// Theme colors
+$primary: $coral;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $navy;
+
+// Fonts
+$font-family-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+$font-family-serif: Georgia, 'Times New Roman', Times, serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-family-base: $font-family-sans-serif;
+
+$link-decoration: none;

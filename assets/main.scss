@@ -1,0 +1,66 @@
+// Import Bootstrap sources
+// https://getbootstrap.com/docs/5.2/customize/sass
+
+// Import Bootstrap functions first
+@import '../node_modules/bootstrap/scss/functions';
+
+// Ensure variables are imported before other Bootstrap parts
+@import 'scss/themes/variables';
+
+// Import Bootstrap components
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/variables-dark';
+@import '../node_modules/bootstrap/scss/maps';
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/root';
+@import '../node_modules/bootstrap/scss/utilities';
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/type';
+@import '../node_modules/bootstrap/scss/images';
+@import '../node_modules/bootstrap/scss/containers';
+@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/tables';
+@import '../node_modules/bootstrap/scss/forms';
+@import '../node_modules/bootstrap/scss/buttons';
+@import '../node_modules/bootstrap/scss/transitions';
+@import '../node_modules/bootstrap/scss/dropdown';
+@import '../node_modules/bootstrap/scss/button-group';
+@import '../node_modules/bootstrap/scss/nav';
+@import '../node_modules/bootstrap/scss/navbar';
+@import '../node_modules/bootstrap/scss/card';
+@import '../node_modules/bootstrap/scss/accordion';
+@import '../node_modules/bootstrap/scss/breadcrumb';
+@import '../node_modules/bootstrap/scss/pagination';
+@import '../node_modules/bootstrap/scss/badge';
+@import '../node_modules/bootstrap/scss/alert';
+@import '../node_modules/bootstrap/scss/progress';
+@import '../node_modules/bootstrap/scss/list-group';
+@import '../node_modules/bootstrap/scss/close';
+@import '../node_modules/bootstrap/scss/toasts';
+@import '../node_modules/bootstrap/scss/modal';
+@import '../node_modules/bootstrap/scss/tooltip';
+@import '../node_modules/bootstrap/scss/popover';
+@import '../node_modules/bootstrap/scss/carousel';
+@import '../node_modules/bootstrap/scss/spinners';
+@import '../node_modules/bootstrap/scss/offcanvas';
+@import '../node_modules/bootstrap/scss/helpers';
+@import '../node_modules/bootstrap/scss/utilities/api';
+
+// Import custom styles
+@import 'scss/general';
+@import 'scss/base/reset';
+@import 'scss/base/typography';
+@import 'scss/layout/header';
+@import 'scss/layout/footer';
+@import 'scss/layout/sidebar';
+@import 'scss/layout/grid';
+@import 'scss/layout/main';
+@import 'scss/components/buttons';
+@import 'scss/components/wp-blocks';
+@import 'scss/wordpress/embeds';
+@import 'scss/wordpress/author';
+@import 'scss/wordpress/posts';
+@import 'scss/utilities/functions';
+@import 'scss/utilities/mixins';
+@import 'scss/utilities/helpers';
+@import 'scss/responsive';
