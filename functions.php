@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Include Theme Customizer.
+ * Include Theme Customizer. 
  *
  * @since v1.0
  */
